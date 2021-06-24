@@ -15,7 +15,7 @@ npm install
 ```
 Once dependencies the server-side dependencies, install the React dependencies:
 ```bash
-cd ../
+cd ..
 cd client/
 npm install
 ```
