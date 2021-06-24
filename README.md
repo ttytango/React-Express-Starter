@@ -19,7 +19,7 @@ cd ..
 cd client/
 npm install
 ```
-Launch the server with the npdemon command in the express-server/package.json, and then the client/package.json with "yarn start".
+Launch the server using the nodemon command in the express-server/package.json, and then the client/package.json with "yarn start".
 The development server should open in the browser on localhost:3000
 
 If the browser window displays a react logo and a line that reads "Connected to Express", then React has connected to Express with a successful call to an API endpoint on localhost:9000/test.
