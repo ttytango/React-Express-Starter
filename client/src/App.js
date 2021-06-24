@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Form from "./components/Form";
 
 function App() {
 	const [testData, setTestData] = useState(null);
@@ -39,6 +40,7 @@ function App() {
 						rel="noopener noreferrer">
 						Learn React
 					</a>
+					<Form />
 				</header>
 			</div>
 		);

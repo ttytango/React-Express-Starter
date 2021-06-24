@@ -35,7 +35,7 @@ app.use('/users', usersRouter);
 
 app.get("/test", function(req,res,next) {
   res.setHeader('Content-Type', 'application/json');
-  res.end(JSON.stringify({ message: "connected to Express!!" }));
+  res.end(JSON.stringify({ message: "Connected to Express!!" }));
 })
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
