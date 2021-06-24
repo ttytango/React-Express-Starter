@@ -1,0 +1,19 @@
+.form {
+    display: flex;
+    margin: 2rem;
+    input {
+        max-width: 80vw;
+    }
+    ,
+    button {
+        cursor: pointer;
+    }
+    ,
+    input,
+    button {
+        padding: 1.6vw;
+        @media (min-width: 708px) {
+            padding: 0.2vw;
+        }
+    }
+}
