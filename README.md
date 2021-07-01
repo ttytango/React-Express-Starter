@@ -23,3 +23,9 @@ Launch the server using the nodemon command in the express-server/package.json, 
 The development server should open in the browser on localhost:3000
 
 If the browser window displays a react logo and a line that reads "Connected to Express", then React has connected to Express with a successful call to an API endpoint on localhost:9000/test.
+
+The client port can also be edited to proxy to port 9000 should this setup not work by going to client/package.json and adding the following code before "dependencies" 
+```
+ "proxy": "http://localhost:9000",
+ ```
+ 
