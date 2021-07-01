@@ -28,4 +28,4 @@ The client port can also be edited to proxy to port 9000 should this setup not w
 ```
  "proxy": "http://localhost:9000",
  ```
- 
+However, doing so might conflict with the express JS index.html template that has been left in, in which case you simply remove the routes/index.js file and any reference to the index router in the Express server's app.js file.
